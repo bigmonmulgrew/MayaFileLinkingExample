@@ -9,7 +9,7 @@ main_menu.py - A slightly different example allowing running each step discreetl
 
 ### Where to place ##
 By defaul Maya will detect scripts in
-Documents/maya/<version>/scripts
+Documents/maya/\<version\>/scripts
 
 If you are using a different location you can add this to your path. with this
 import sys
