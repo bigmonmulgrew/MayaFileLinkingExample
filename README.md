@@ -12,9 +12,10 @@ By defaul Maya will detect scripts in
 Documents/maya/\<version\>/scripts
 
 If you are using a different location you can add this to your path with this.
-
-- import sys
-- sys.path.append(r"C:\myScripts")
+```
+import sys
+sys.path.append(r"C:\myScripts")
+```
 
 ### Warning ####
 Maya caches modules and wont update them if you make changes. You can force this without restarting by running this, example for step1.py
