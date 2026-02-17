@@ -19,7 +19,9 @@ sys.path.append(r"C:\myScripts")
 
 ### Warning ####
 Maya caches modules and wont update them if you make changes. You can force this without restarting by running this, example for step1.py
-- import importlib
-- import step1
-- importlib.reload(step1)
-
+```
+import importlib
+import step1
+importlib.reload(step1)
+```
+You will need to do this for any changed files
